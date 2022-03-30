@@ -1,0 +1,97 @@
+.headerAssigned{
+    width: 100%;
+    height: 27vh;
+    background-color: #FFCC02;
+}
+.pAssigned{
+    color: #FFFFFF;
+    padding: 19vh 0 0 3rem;
+    font-size: 2rem;
+}
+.containerAllAssigned{
+    width: 100%;
+    /* height: 90vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.containerAssigned{
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 5px -1px rgb(68, 68, 68);
+}
+.profileAssigned{
+    width: 35rem;
+    border-top: 0.5vh solid #F1F1F1;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCC02;
+    clip-path: polygon(0% 0, 100% 0%, 92% 100%, 0% 100%);
+}
+.nameAssigned{
+    width: 35rem;
+    border-top: 0.5vh solid #F1F1F1;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCC02;
+    clip-path: polygon(7.3% 0, 100% 0%, 100% 100%, 0% 100%);
+    
+}
+.containerSession{
+    margin-bottom: 7vh;
+}
+.hAssigned{
+    font-size: 1.5rem;
+    text-align: left;
+    color: black;
+}
+.containerAllSession{
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: #FFCC02;
+}
+.pSession{
+    text-align: center;
+    margin: 1rem 2rem 1rem 2rem;
+}
+.yelTxt{
+    color: #FFCC02;
+}
+.whiteTxt{
+    color: #FFF;
+}
+.containerDateSession{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4rem;
+    font-size: 0.9rem;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.5vh;
+    border-radius: 0.5rem;
+    background-color: #F1F1F1;
+}
+.btnsSessions{
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,131 @@
+:root {
+  --green:#92C149;
+  --yellow:#FFCC02;
+}
+
+
+/* .card {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  
+} */
+.title{
+  color:var(--green);
+  text-align: center;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.subtitles{
+  color:var(--green);
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.whitebox {
+  width: 30vw;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  /* position: absolute;
+  left: 20px;
+  right: 20px; */
+  background: #f6f6f6;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.info {
+  font-size: 22px;
+
+}
+.linkSession
+{
+position: relative;  
+font-size: 22px;
+background:transparent;
+color: #000;
+border-radius: 10px;
+text-decoration: none;
+margin-top: 20px;
+margin-bottom: 10px;
+box-shadow: 0 0px 0px rgb(0 0 0 / 0%);
+width: 100%;
+word-wrap: break-word;
+text-align: center;
+}
+.message{
+  color:var(--green);
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.btn{
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: #ffcc02;
+  color: #000;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+  transition: 0.5s;
+  border: none;   
+  cursor: pointer; 
+  font-size: 22px;
+}
+.btn:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #000;
+  color: #ffcc02;
+}
+.note{
+  font-size: 14px;
+  margin-top: 10%;
+}
+.green{
+  width:85vw;
+  height: 47vh;
+  background-color: #92C149;
+  border-radius: 20px;
+}
+@media (min-width:400px ) {
+  .green,.container{
+      max-width: 400px;
+  }
+}       
+
+@media (max-width: 768px){
+  .whitebox {
+    width: 80vw;
+    text-align: center;
+  }
+}
+
+
+@media (min-width:700px ) {
+
+  
+  .green,.container{
+      max-width: 500px;
+  }
+  .green{
+      height: 60vh;
+  }
+  .container{
+      height: 57vh;
+  }
+} 

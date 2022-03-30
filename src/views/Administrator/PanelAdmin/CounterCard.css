@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Gilroy-Light ;
+    src: url(../../assets/Font/Gilroy-Light.otf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+  }
+  
+  
+  .all {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      background: #fefefe;
+    }
+    
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      height: 66vh;
+    }
+    
+    .back{
+      background-color: #D7D7D7;
+      box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+        inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+        5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+      padding: 0px 2%;
+      margin: 15px 15px;
+    }
+    
+    .card {
+      position: relative;
+      width: 373px;
+      height: 300px;
+    }
+    .little{
+      z-index: 10;
+      border-radius: 10px;
+      background-color: #92C149;
+      margin-left: 20px;
+      width: 90%;
+    }
+    .box {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      right: 20px;
+      bottom: 20px;
+      background: #f6f6f6;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    body .container .card .box .content {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h3 {
+      font-size: 1.8rem;
+      color: #92C149;
+      margin-bottom: 15px;
+    }
+    
+    li {
+      font-size: 1rem;
+      font-weight: 300;
+      color: #000;
+      z-index: 1;
+      transition: 0.5s;
+      font-family: Gilroy-Light;
+    }
+    
+    .next{
+      position: relative;
+      display: inline-block;
+      padding: 8px 20px;
+      background: #ffcc02;
+      color: #000;
+      border-radius: 10px;
+      text-decoration: none;
+      margin-top: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      transition: 0.5s;
+    }
+    
+    .next:hover {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+      background: #000;
+      color: #ffcc02;
+    }
+  

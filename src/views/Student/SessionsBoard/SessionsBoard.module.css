@@ -1,0 +1,20 @@
+:root {
+    --green:#92C149;
+    --yellow:#FFCC02;
+    --gray: #D7D7D7;
+}
+
+.board{
+    width: 100vw;
+    padding: 10%;
+    background-color: var(--gray);
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap:wrap;
+    /* justify-content: center;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(360px,1fr));
+    gap:1rem;  */
+    margin-top: 82px;
+}

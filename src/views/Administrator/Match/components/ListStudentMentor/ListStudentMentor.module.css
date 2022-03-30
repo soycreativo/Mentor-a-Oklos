@@ -1,0 +1,121 @@
+.column {
+  display: flex;
+  flex-direction: row;
+}
+
+.containerTable {
+  overflow-x: scroll;
+  width: 95vw;
+  overflow-y: scroll;
+  max-height: 350px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+}
+
+.container h2 {
+  margin: 0px auto;
+  text-align: center;
+  text-shadow: 1px 1px 2px #000000;
+  box-shadow: 2px 2px 2px #a0a0a0;
+  background-color: #f1f1f1;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.table {
+  width: 95vw;
+  margin: 20px auto;
+  overflow: scroll;
+  border: none;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table th {
+  margin: 1px;
+  padding: 20px 0px 20px 20px;
+  background-color: #ffcc02;
+  box-shadow: 2px 2px 2px #a0a0a0;
+  font-weight: 800;
+}
+.table tr {
+  overflow-x: scroll;
+}
+tbody tr:hover {
+  background-color: #cccccc;
+}
+
+.containerbutton {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin-right: 10%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.containerbuttonactions {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+
+#update {
+  width: 40px;
+  background-color: transparent;
+  padding: 2px;
+  margin: 2px;
+  border: none;
+  box-shadow: none;
+  color: #1a2818;
+  cursor: pointer;
+}
+
+.table td {
+  padding: 8px 0px 8px 20px;
+  border-bottom: 1px solid #000000;
+}
+
+button {
+  box-shadow: 3px 3px 5px #a0a0a0;
+  text-shadow: 1px 1px 2px #000000;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+  color: #ffcc02;
+}
+
+@media only screen and (max-width: 800px) {
+  .buttonSelect {
+    font-size: 16px;
+  }
+  .container {
+    padding-top: 15%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .buttonSelect {
+    font-size: 14px;
+  }
+  .container {
+    padding-top: 25%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .table {
+    display: block;
+    overflow-x: auto;
+  }
+}

@@ -1,0 +1,71 @@
+body{
+  background-color: gray;
+  height: 2000vw;
+  margin-left: 2vh;
+}
+
+.calendario{
+  background-color:#FEFEFE;
+  border-radius: 18px;
+  border:solid 2px #ffff;
+  height: auto;
+  width: 30vw;
+  padding: 2vw;
+  box-shadow: 0vw 1vw #92C149;
+  display: flex;
+  flex-direction: column;
+  text-justify: auto;
+  position: absolute;
+}
+.calendario h3{
+  color:#92C149;
+}
+
+.calendario h4{
+  color:#92C149;
+}
+
+
+
+.fechas-disponibles{
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+}
+
+.fecha-inicial{
+  margin-right: 3vw;
+  width: 40%;
+}
+
+.fecha-final{
+  width: 40%;
+}
+
+.hora-de-inicio{
+  width: 40%;
+  margin-right: 3vw;
+  
+}
+
+.hora-de-finalizacion{
+  width: 40%;
+}
+
+.btn-selct-date{
+  background-color: yellow;
+  border-radius: 5px;
+  border:none;
+  padding: 0.5vw;
+  margin-left: 10vw;
+}
+
+.select-date{
+  margin-left: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw ;
+  background-color: #FEFEFE;
+  border-radius: 5px;
+  padding-right: 8vw;
+  padding-left: 8vw;
+}

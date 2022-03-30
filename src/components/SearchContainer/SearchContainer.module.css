@@ -1,0 +1,56 @@
+.Container {
+	padding: 0;
+	margin: 0;
+}
+
+.Container h2 {
+	color: #000000;
+	background-color: #f1f1f1;
+	width: 99%;
+	padding: 20px 0;
+	text-shadow: 1px 1px 2px #000000;
+	box-shadow: 2px 2px 2px #a0a0a0;
+	margin: 10px;
+	text-align: center;
+}
+
+.Container input {
+	min-width: 25vw;
+	height: 6vh;
+	border: #010101 solid 0.12rem;
+	border-radius: 1rem;
+	padding: 2px 15px;
+}
+
+.button {
+	width: 50%;
+	background-color: #ffcc02;
+	color: black;
+	padding: 10px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.Container button:hover {
+	background-color: #000000;
+	color: #ffcc02;
+}
+
+.searchButton {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 94%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+@media (min-width: 500px) {
+	.searchButton {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+}

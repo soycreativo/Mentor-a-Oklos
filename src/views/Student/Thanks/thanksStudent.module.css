@@ -1,0 +1,74 @@
+@font-face {
+font-family: Gilroy-Light ;
+src: url(../../../assets/Font/Gilroy-Light.otf);
+}
+
+* {
+margin-top: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Roboto, sans-serif;
+}
+.containerAll{
+  width: 100%;
+  height: 100vh;
+  padding-top: 15vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.logoContainer{
+  /* width: 50%; */
+  width: 42rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoImg{
+  
+  width: 90%;
+}
+.thanksContainer{
+  width: 42rem;
+  padding: 0 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFCC02;
+}
+.checkContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+.checkIcon{
+  font-size: 4.5rem;
+  color: #F1F1F1;
+  text-align: center;
+}
+.thanksContainer h3{
+  color: black;
+}
+.notifContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* column-gap: 1.5rem; */
+}
+.btnFinalizar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1F1F1;
+  color: #010101;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); */
+}
+  

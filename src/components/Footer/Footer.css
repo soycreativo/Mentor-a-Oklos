@@ -1,0 +1,253 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: 0%;
+}
+.footer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0);
+
+}
+
+.footer-social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #010101;
+  padding: 10px;
+  z-index: 5;
+ }
+ .logoSocialMedia {
+   
+   position: relative;
+   left: 110px;
+   margin: 15px 15px;
+ }
+
+
+ .footer-info__name {
+  position: relative;
+   left: -75px;
+  margin: 80px 5px 0 0px;
+ 
+}
+.cont{
+background-color: #010101;
+height: 5px;
+width: 100vw;
+}
+hr {
+  color: rgb(255, 255, 255);
+  margin: 0px;
+}
+.block1{
+  width: 80px;
+  height: 40px;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 10;
+  position: relative;
+  top:10px;
+}
+.block2{
+  width: 70px;
+  height: 40px;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 10;
+  position: relative;
+  left: 5px;
+  bottom: 35px;
+}
+
+ .rightsResercedText{
+  background-color: #010101;
+  width: 100vw;
+  color: white;
+  font-size: 1em;
+  padding-top:40px;
+  padding-bottom:10px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0px;
+  
+  
+ }
+ @media only screen and (min-width: 550px){
+  *{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    
+  }
+  .footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0);
+  
+  }
+  
+  .footer-social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #010101;
+    padding: 10px;
+    z-index: 2;
+    
+   }
+   .logoSocialMedia {
+     width: 35px; height: 35px;
+     margin: 18px 10px;
+     z-index: 5;
+     
+   }
+  
+  
+   .footer-info__name {
+    display: flex;
+    margin: 5px 10px 0 260px;
+   
+  }
+  .cont{
+  background-color: #010101;
+  height: 5px;
+  width: 100vw;
+  }
+  hr {
+    color: rgb(255, 255, 255);
+    margin: 0px;
+  }
+  .block1{
+    width: 50px;
+    height: 40px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 10;
+    position: relative;
+    top:10px;
+  }
+  .block2{
+    width: 50px;
+    height: 40px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 10;
+    position: relative;
+    left: 91px;
+    bottom: 35px;
+    
+  }
+  
+   .rightsResercedText{
+    background-color: #010101;
+    width: 100vw;
+    color: white;
+    font-size: 1em;
+    padding-top:40px;
+    padding-bottom:10px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+    
+    
+   }
+ }
+@media only screen and (min-width: 1024px) {
+  *{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: 0;
+  }
+  .footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0);
+  
+  }
+  
+  .footer-social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #010101;
+    padding: 10px;
+    z-index: 2;
+    
+   }
+   .logoSocialMedia {
+     width: 40px; height: 40px;
+     margin: 15px 10px;
+     z-index: 5;
+     
+   }
+  
+  
+   .footer-info__name {
+    display: flex;
+    margin: 0px 10px 0 850px;
+   
+  }
+  .cont{
+  background-color: #010101;
+  height: 5px;
+  width: 100vw;
+  }
+  hr {
+    color: rgb(255, 255, 255);
+    margin: 0px;
+  }
+  .block1{
+    width: 80px;
+    height: 40px;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    z-index: 10;
+    position: relative;
+    top:10px;
+  }
+  .block2{
+    width: 70px;
+    height: 40px;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    z-index: 10;
+    position: relative;
+    left: 1268px;
+    bottom: 35px;
+  }
+  
+   .rightsResercedText{
+    background-color: #010101;
+    width: 100vw;
+    color: white;
+    font-size: 1em;
+    padding-top:40px;
+    padding-bottom:10px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+    
+    
+   }
+  
+}
+
+
+
+
+
+
+

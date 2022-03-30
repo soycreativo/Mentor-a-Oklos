@@ -1,0 +1,163 @@
+.container {
+  font-family: Gilroy-Light;
+  display: flex;
+  justify-content: content;
+  flex-direction: column;
+  padding-top: 10%;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+}
+
+.containerTable {
+  overflow-x: scroll;
+  width: 95vw;
+  overflow-y: scroll;
+  max-height: 400px;
+  margin: 10px auto;
+}
+
+.table {
+  width: 92vw;
+  margin: 20px auto;
+  overflow: scroll;
+  border: none;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table th {
+  margin: 1px;
+  padding: 20px 0px 20px 20px;
+  background-color: #ffcc02;
+  box-shadow: 2px 2px 2px #a0a0a0;
+  font-weight: 800;
+}
+.table tr {
+  overflow-x: scroll;
+}
+
+.containerbutton {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  margin-left: 18px;
+}
+
+.table td {
+  padding: 8px 0px 8px 20px;
+  border-bottom: 1px solid #000000;
+}
+tbody tr:hover {
+  background-color: #cccccc;
+}
+
+button {
+  display: flex;
+  margin: 10px 0;
+  box-shadow: 3px 3px 5px #a0a0a0;
+  text-shadow: 1px 1px 2px #000000;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#update {
+  width: 40px;
+  background-color: transparent;
+  padding: 2px;
+  margin: 2px;
+  border: none;
+  box-shadow: none;
+  color: #1a2818;
+  cursor: pointer;
+}
+
+#update :hover {
+  background-color: none;
+  color: red;
+}
+
+#delete {
+  width: 40px;
+  background-color: transparent;
+  padding: 2px;
+  margin: 2px;
+  border: none;
+  box-shadow: none;
+  color: #1a2818;
+  cursor: pointer;
+}
+
+#delete :hover {
+  color: red;
+}
+
+.modal {
+  max-width: 500px;
+  background-color: #ffffff;
+  margin: 50px auto;
+  align-items: center;
+  padding: 30px;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.modal h3 {
+  color: #000000;
+  text-align: center;
+  font-size: 28px;
+  font-family: Gilroy-ExtraBold;
+}
+
+.modal button {
+  border-radius: 10px;
+  background-color: #ffcc02;
+  max-width: 170px;
+  padding: 8px;
+  font-size: 16px;
+  box-shadow: 3px 3px 5px #a0a0a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal button:hover {
+  background-color: #000000;
+  color: #ffcc02;
+  max-width: 170px;
+  padding: 8px;
+  font-size: 16px;
+  box-shadow: 3px 3px 5px #a0a0a0;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .modal {
+    margin: 20px;
+  }
+  .modal h3 {
+    color: #000000;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .container {
+    padding-top: 15%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .table {
+    display: block;
+    overflow-x: auto;
+  }
+  .modal h3 {
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+  }
+}
